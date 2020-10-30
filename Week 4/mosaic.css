@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: black 3px solid;
+}
+table td{
+    border: black 3px solid;
+    width: 75px;
+    height: 75px;
+}
+
+
+tr:nth-child(1) td:nth-child(1){
+    background-color: #420100;
+}
+tr:nth-child(1) td:nth-child(2){
+    background-color: gold;
+}
+tr:nth-child(2) td:nth-child(1){
+    background-color: blueviolet;
+}
+tr:nth-child(2) td:nth-child(2){
+    background-color: cadetblue;
+}
+tr:nth-child(2) td:nth-child(3){
+    background-color: goldenrod;
+}
+tr:nth-child(3) td:nth-child(1){
+    background-color: chartreuse;
+}
+tr:nth-child(3) td:nth-child(2){
+    background-color: white;
+}
+tr:nth-child(4) td:nth-child(1){
+    background-color: darkolivegreen;
+}
+tr:nth-child(5) td:nth-child(1){
+    background-color: crimson;
+}

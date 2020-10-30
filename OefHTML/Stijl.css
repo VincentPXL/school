@@ -1,0 +1,22 @@
+body {
+    background-color: #d9ddd7;
+    font-family: Verdana;
+}
+h1{
+    color: #0d9e19;
+}
+p{
+    background-color: #6a7689;
+}
+.highlight{
+    color: yellow;
+    border: solid 2px yellow;
+    margin-left: 20%;
+    text-align: center;
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: green;
+}

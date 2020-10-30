@@ -1,0 +1,85 @@
+body{
+    font-family: "Roboto", serif;
+    font-size: 12px;
+    background-color: gray;
+}
+a:hover {
+    font-size: 16px;
+    color: blue;
+}
+a{
+    color: white;
+}
+h1{
+    color: orange;
+    size: 20px;
+}
+h2{
+    color: white;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.right{
+    right: 0;
+
+}
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+#Pukkelpop{
+    border: solid #ff0000 2px;
+    width: 35%;
+    background-color: cornflowerblue;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+
+}
+#RockWerchter{
+    border: solid red 2px;
+    width: 35%;
+    background-color: sandybrown;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+#Tomorrowland{
+    border: solid red 2px;
+    width: 35%;
+    background-color: #eccbd9;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+#Graspop{
+    border: solid red 2px;
+    width: 35%;
+    background-color: lightgreen;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+#Dour{
+    border: solid red 2px;
+    width: 35%;
+    background-color: yellow;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}

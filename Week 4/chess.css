@@ -1,0 +1,65 @@
+html{
+    font-family: "Roboto Light", serif;
+}
+
+.body{
+    background-image: url("assets/hout.jpg");
+}
+.container{
+
+}
+#info{
+    background-image: url("assets/witte-marmer.jpg");
+    background-repeat: repeat;
+    width: 250px;
+    padding: 10px;
+    border: #420100 outset 4px;
+    float: right;
+    height: 400px;
+}
+
+table{
+    background-color: #420100;
+    float: left;
+    width: 610px;
+    height: 610px;
+    border: #420100 outset 5px;
+}
+/*.whitesq{
+    background-image: url("assets/witte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}*/
+/*.blacksq{
+    background-image: url("assets/zwarte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}*/
+.uitleg{
+    background-image: url("assets/witte-marmer.jpg");
+}
+table img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr:nth-child(odd) td:nth-child(even){
+    background-image: url("assets/witte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}
+table tr:nth-child(odd) td:nth-child(odd){
+    background-image: url("assets/zwarte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}
+table tr:nth-child(even) td:nth-child(even){
+    background-image: url("assets/zwarte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}
+table tr:nth-child(even) td:nth-child(odd){
+    background-image: url("assets/witte-marmer.jpg");
+    width: 75px;
+    height: 75px;
+}
